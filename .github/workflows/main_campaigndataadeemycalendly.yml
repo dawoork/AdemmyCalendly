@@ -36,10 +36,6 @@ jobs:
 
       # Optional: Add step to run tests here
       # Nuevo paso para verificar las dependencias
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-        env:
-          pythonLocation: ${{ env.pythonLocation }}
 
       # Opcional: Añadir paso para ejecutar tests (si los tienes)
       - name: Run tests
